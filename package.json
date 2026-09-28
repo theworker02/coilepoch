@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/coilepoch",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Coil encode/decode helpers for epoch payloads in pipelines.",
+  "bin": {
+    "coilepoch": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/coilepoch.git"
+  },
+  "homepage": "https://theworker02.github.io/coilepoch/",
+  "keywords": [
+    "coil",
+    "epoch",
+    "encode",
+    "cli",
+    "toolkit"
+  ]
+}
